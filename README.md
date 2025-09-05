@@ -1,69 +1,95 @@
-# Welcome to your Lovable project
+# Serene Lanka Travel
 
-## Project info
+Welcome to **Serene Lanka Travel**!  
+This repository contains the source code for a travel-focused application built to showcase the best destinations, tours, and experiences across Sri Lanka. The project aims to provide users with a seamless platform to explore, plan, and book their perfect Sri Lankan adventure.
 
-**URL**: https://lovable.dev/projects/ec1d4f1e-2506-4da5-a91b-34afa90cceb6
+---
 
-## How can I edit this code?
+## 🌴 Features
 
-There are several ways of editing your application.
+- **Interactive Destination Explorer:** Discover cities, beaches, mountains, and cultural sites.
+- **Tour Listings:** Browse curated tours and experiences with detailed itineraries.
+- **Booking System:** Simple and secure booking flow for tours and accommodations.
+- **User Reviews & Ratings:** Read and share feedback about destinations and services.
+- **Responsive Design:** Optimized for mobile and desktop devices.
+- **Multi-language Support:** Explore content in multiple languages (coming soon).
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ec1d4f1e-2506-4da5-a91b-34afa90cceb6) and start prompting.
+## 🚀 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- [Node.js](https://nodejs.org/) (version 14+ recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/chanakaeshan/serene-lanka-travel.git
+   cd serene-lanka-travel
+   ```
 
-Follow these steps:
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4. **Open your browser:**  
+   Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 🛠️ Project Structure
+
+```
+serene-lanka-travel/
+├── public/           # Static assets
+├── src/              # Source code (components, pages, utils)
+├── data/             # Sample data files
+├── styles/           # Global and component styles
+├── package.json
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🤝 Contributing
 
-**Use GitHub Codespaces**
+We welcome contributions! To get started:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/my-feature`)
+5. Open a [pull request](https://github.com/chanakaeshan/serene-lanka-travel/pulls)
 
-## What technologies are used for this project?
+Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
-This project is built with .
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📄 License
 
-## How can I deploy this project?
+This project is licensed under the [MIT License](LICENSE).
 
-Simply open [Lovable](https://lovable.dev/projects/ec1d4f1e-2506-4da5-a91b-34afa90cceb6) and click on Share -> Publish.
+---
 
-## I want to use a custom domain - is that possible?
+## 📞 Contact
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+For questions, suggestions, or business inquiries:
+- GitHub: [@chanakaeshan](https://github.com/chanakaeshan)
+- Email: [chanakaeshan@gmail.com](mailto:chanakaeshan@gmail.com)
+
+---
+
+Enjoy exploring Serene Lanka Travel! 🇱🇰✨
